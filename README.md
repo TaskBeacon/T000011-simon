@@ -48,6 +48,12 @@ The Simon Task is a classic experimental paradigm used to assess response confli
 | Feedback            | Display feedback (`Correct`, `Incorrect`, or `Too Slow`).                   |
 | ITI                 | A blank screen shown for a random duration before the next trial.           |
 
+### Runtime Context Phases
+| Phase Label | Meaning |
+|---|---|
+| `pre_stim_fixation` | pre stim fixation stage in `src/run_trial.py` responder context. |
+| `simon_response` | simon response stage in `src/run_trial.py` responder context. |
+
 ## 3. Configuration Summary
 
 ### a. Subject Info
