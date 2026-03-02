@@ -7,6 +7,23 @@ All notable development changes for `T000011-simon` are documented here.
 ### Changed
 - Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()` and removed legacy internal `_next_trial_id` and `_deadline_s` boilerplate.
 
+## [1.2.0] - 2026-03-02
+
+### Added
+- Added required reference artifacts:
+  - `references/references.yaml`
+  - `references/references.md`
+  - `references/parameter_mapping.md`
+  - `references/stimulus_mapping.md`
+  - `references/task_logic_audit.md`
+- Added standardized sampler entrypoint `responders/task_sampler.py` with `TaskSamplerResponder`.
+
+### Changed
+- Standardized `config/*.yaml` with encoding-clean participant-facing Chinese text.
+- Updated sampler config to use `responders.task_sampler:TaskSamplerResponder`.
+- Updated `taskbeacon.yaml` metadata (`release_tag`, evidence paths, maintainer block).
+- Rewrote `README.md` into current contract structure and fixed documentation mismatches.
+
 ## [1.1.1] - 2026-02-18
 - Refactored responder context phase names in `src/run_trial.py` to task-specific labels (removed generic MID-style phase naming).
 - Updated stage comments in `src/run_trial.py` to phase-aligned labels for cleaner auditability.
