@@ -6,6 +6,8 @@ All notable development changes for `T000011-simon` are documented here.
 
 ### Changed
 - Refactored `src/run_trial.py` to use `psyflow`'s native `next_trial_id()` and removed legacy internal `_next_trial_id` and `_deadline_s` boilerplate.
+- Added explicit trial context metadata for `feedback` and `iti` visible phases.
+- Rewrote corrupted `references/task_plot_audit.md` prose into encoding-clean audit text.
 
 ## [1.2.0] - 2026-03-02
 
