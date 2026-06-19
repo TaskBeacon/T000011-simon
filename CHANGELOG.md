@@ -9,6 +9,9 @@ All notable development changes for `T000011-simon` are documented here.
 - Added explicit trial context metadata for `feedback` and `iti` visible phases.
 - Rewrote corrupted `references/task_plot_audit.md` prose into encoding-clean audit text.
 
+### Removed
+- Removed unused empty `src/utils.py`.
+
 ## [1.2.0] - 2026-03-02
 
 ### Added
